@@ -23,9 +23,8 @@ $white: rgb(243, 243, 243);
 }
 
 body {
-  background: $white;
+  background: $color-2;
   font-family: $font-1;
-  // @include verticalCenter;
 }
 
 li {

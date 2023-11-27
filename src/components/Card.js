@@ -7,6 +7,7 @@ const Card = ({ country }) => {
             <div className="infos">
                 <h2> {country.translations.fra.common}</h2>
                 <h4>{country.capital}</h4>
+                <h5>{country.continents}</h5>
                 <p>Population <br />{country.population.toLocaleString()}</p>
             </div>
         </li>
